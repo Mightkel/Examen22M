@@ -1,9 +1,10 @@
-﻿
-int[] cantidades = new int[10];
+﻿int[] cantidades = new int[10];
 double[] precios = new double[10];
 string[] productos = new string[10];
 int contador = 0;
 double total = 0;
+while (true)
+{
 //menu
 int opcion = 0;
 Console.ForegroundColor = ConsoleColor.Blue;
@@ -26,8 +27,7 @@ catch (FormatException)
     Console.ResetColor();
     return;
 }
-do
-{
+
     switch (opcion)
     {
 
@@ -96,11 +96,9 @@ do
             Console.WriteLine("Presiona cualquier tecla para salir...");
             Console.ReadKey();
             Console.ResetColor();
-            break;
+            return;
         default:
             Console.WriteLine("ERROR, Ingreso un dato invalido.");
             break;
-
     }
-    
-}while (opcion != 6);
+}
