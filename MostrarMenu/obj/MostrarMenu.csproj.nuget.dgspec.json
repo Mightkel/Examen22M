@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karid\\OneDrive\\Desktop\\GithubT\\MostrarMenu\\MostrarMenu.csproj": {}
+    "C:\\Users\\karid\\OneDrive\\Desktop\\PRUEBA\\MostrarMenu\\MostrarMenu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karid\\OneDrive\\Desktop\\GithubT\\MostrarMenu\\MostrarMenu.csproj": {
+    "C:\\Users\\karid\\OneDrive\\Desktop\\PRUEBA\\MostrarMenu\\MostrarMenu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karid\\OneDrive\\Desktop\\GithubT\\MostrarMenu\\MostrarMenu.csproj",
+        "projectUniqueName": "C:\\Users\\karid\\OneDrive\\Desktop\\PRUEBA\\MostrarMenu\\MostrarMenu.csproj",
         "projectName": "MostrarMenu",
-        "projectPath": "C:\\Users\\karid\\OneDrive\\Desktop\\GithubT\\MostrarMenu\\MostrarMenu.csproj",
+        "projectPath": "C:\\Users\\karid\\OneDrive\\Desktop\\PRUEBA\\MostrarMenu\\MostrarMenu.csproj",
         "packagesPath": "C:\\Users\\karid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karid\\OneDrive\\Desktop\\GithubT\\MostrarMenu\\obj\\",
+        "outputPath": "C:\\Users\\karid\\OneDrive\\Desktop\\PRUEBA\\MostrarMenu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\karid\\AppData\\Roaming\\NuGet\\NuGet.Config"

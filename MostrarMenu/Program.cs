@@ -14,7 +14,7 @@ try
 {
     opcion = int.Parse(Console.ReadLine()!);
 }
-catch(FormatException)
+catch (FormatException)
 {
     Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine("ERROR, Ingreso un dato inválido");
@@ -24,26 +24,27 @@ catch(FormatException)
 
 switch (opcion)
 {
-    
-        case 1:
 
-        case 2:
+    case 1:
 
-        case 3:
+    case 2:
 
-        case 4:
+    case 3:
 
-        case 5:
+    case 4:
 
-        case 6:
+    case 5:
+
+    case 6:
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
         Console.WriteLine("Fin del programa");
         Console.WriteLine("Presiona cualquier tecla para salir...");
         Console.ReadKey();
         Console.ResetColor();
         break;
-        default:
+    default:
+        Console.ForegroundColor = ConsoleColor.Red;
         Console.WriteLine("ERROR, Ingreso un dato invalido.");
+        Console.ResetColor();
         break;
-    
 }
