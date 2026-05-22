@@ -30,10 +30,14 @@ switch (opcion)
     case 2:
 
     case 3:
-
+    
     case 4:
 
     case 5:
+    double promedio = total/contador;
+    //Se necesita la variable total y contador definidas por las otras partes
+    Console.Write($"El promedio de ventas es: C${promedio:F2}");
+    break;
 
     case 6:
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
