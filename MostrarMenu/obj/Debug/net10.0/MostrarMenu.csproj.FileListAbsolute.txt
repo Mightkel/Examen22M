@@ -1,0 +1,15 @@
+C:\Users\karid\OneDrive\Desktop\GithubT\MostrarMenu\bin\Debug\net10.0\MostrarMenu.exe
+C:\Users\karid\OneDrive\Desktop\GithubT\MostrarMenu\bin\Debug\net10.0\MostrarMenu.deps.json
+C:\Users\karid\OneDrive\Desktop\GithubT\MostrarMenu\bin\Debug\net10.0\MostrarMenu.runtimeconfig.json
+C:\Users\karid\OneDrive\Desktop\GithubT\MostrarMenu\bin\Debug\net10.0\MostrarMenu.dll
+C:\Users\karid\OneDrive\Desktop\GithubT\MostrarMenu\bin\Debug\net10.0\MostrarMenu.pdb
+C:\Users\karid\OneDrive\Desktop\GithubT\MostrarMenu\obj\Debug\net10.0\MostrarMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karid\OneDrive\Desktop\GithubT\MostrarMenu\obj\Debug\net10.0\MostrarMenu.AssemblyInfoInputs.cache
+C:\Users\karid\OneDrive\Desktop\GithubT\MostrarMenu\obj\Debug\net10.0\MostrarMenu.AssemblyInfo.cs
+C:\Users\karid\OneDrive\Desktop\GithubT\MostrarMenu\obj\Debug\net10.0\MostrarMenu.csproj.CoreCompileInputs.cache
+C:\Users\karid\OneDrive\Desktop\GithubT\MostrarMenu\obj\Debug\net10.0\MostrarMenu.sourcelink.json
+C:\Users\karid\OneDrive\Desktop\GithubT\MostrarMenu\obj\Debug\net10.0\MostrarMenu.dll
+C:\Users\karid\OneDrive\Desktop\GithubT\MostrarMenu\obj\Debug\net10.0\refint\MostrarMenu.dll
+C:\Users\karid\OneDrive\Desktop\GithubT\MostrarMenu\obj\Debug\net10.0\MostrarMenu.pdb
+C:\Users\karid\OneDrive\Desktop\GithubT\MostrarMenu\obj\Debug\net10.0\MostrarMenu.genruntimeconfig.cache
+C:\Users\karid\OneDrive\Desktop\GithubT\MostrarMenu\obj\Debug\net10.0\ref\MostrarMenu.dll
