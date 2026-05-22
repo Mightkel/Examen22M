@@ -1,0 +1,15 @@
+C:\Users\Littl\OneDrive\Documentos\PRUEBAJ\MostrarP\bin\Debug\net10.0\MostrarP.exe
+C:\Users\Littl\OneDrive\Documentos\PRUEBAJ\MostrarP\bin\Debug\net10.0\MostrarP.deps.json
+C:\Users\Littl\OneDrive\Documentos\PRUEBAJ\MostrarP\bin\Debug\net10.0\MostrarP.runtimeconfig.json
+C:\Users\Littl\OneDrive\Documentos\PRUEBAJ\MostrarP\bin\Debug\net10.0\MostrarP.dll
+C:\Users\Littl\OneDrive\Documentos\PRUEBAJ\MostrarP\bin\Debug\net10.0\MostrarP.pdb
+C:\Users\Littl\OneDrive\Documentos\PRUEBAJ\MostrarP\obj\Debug\net10.0\MostrarP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Littl\OneDrive\Documentos\PRUEBAJ\MostrarP\obj\Debug\net10.0\MostrarP.AssemblyInfoInputs.cache
+C:\Users\Littl\OneDrive\Documentos\PRUEBAJ\MostrarP\obj\Debug\net10.0\MostrarP.AssemblyInfo.cs
+C:\Users\Littl\OneDrive\Documentos\PRUEBAJ\MostrarP\obj\Debug\net10.0\MostrarP.csproj.CoreCompileInputs.cache
+C:\Users\Littl\OneDrive\Documentos\PRUEBAJ\MostrarP\obj\Debug\net10.0\MostrarP.sourcelink.json
+C:\Users\Littl\OneDrive\Documentos\PRUEBAJ\MostrarP\obj\Debug\net10.0\MostrarP.dll
+C:\Users\Littl\OneDrive\Documentos\PRUEBAJ\MostrarP\obj\Debug\net10.0\refint\MostrarP.dll
+C:\Users\Littl\OneDrive\Documentos\PRUEBAJ\MostrarP\obj\Debug\net10.0\MostrarP.pdb
+C:\Users\Littl\OneDrive\Documentos\PRUEBAJ\MostrarP\obj\Debug\net10.0\MostrarP.genruntimeconfig.cache
+C:\Users\Littl\OneDrive\Documentos\PRUEBAJ\MostrarP\obj\Debug\net10.0\ref\MostrarP.dll
