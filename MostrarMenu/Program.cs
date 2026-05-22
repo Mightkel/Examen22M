@@ -1,54 +1,60 @@
-﻿using System.Linq.Expressions;
+﻿ case 2:
+            //validar si se ingresaron productos
+            if (contador == 0)
+            {
+                Console.WriteLine("No se ingresaron productos.");
+                return;
+            }
+            //mostrar productos registrados
+            Console.WriteLine("\nProductos registrados:");
+            Console.WriteLine("Producto\tPrecio\tCantidad\t");
+            for (int i = 0; i < contador; i++)
+            {
+                double subtotal = precios[i] * cantidades[i];
+                total += subtotal;
+                Console.WriteLine($"{productos[i]}\t{precios[i]:F2}\t{cantidades[i]}\t");
+            }
 
-int opcion = 0;
-Console.ForegroundColor = ConsoleColor.Blue;
-Console.WriteLine("=== MENÚ DE OPCIONES ===");
-Console.WriteLine("1. Registrar productos");
-Console.WriteLine("2. Mostrar productos");
-Console.WriteLine("3. Calcular total vendido");
-Console.WriteLine("4. Mostrar producto mas vendido");
-Console.WriteLine("5. Mostrar promedio de ventas");
-Console.WriteLine("6. Salir");
-Console.ResetColor();
-try
-{
-    opcion = int.Parse(Console.ReadLine()!);
-}
-catch (FormatException)
-{
-    Console.ForegroundColor = ConsoleColor.Red;
-    Console.WriteLine("ERROR, Ingreso un dato inválido");
-    Console.ResetColor();
-    return;
-}
+            Console.WriteLine($"\nTotal ventas: {total:F2}");
+            break;
 
-switch (opcion)
-{
+        case 3:
+               
+            if (contador == 0)
+            {
+                 Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("No se ingresaron productos. Vuelva al menú para registrar productos.");
+                return;
+                Console.ResetColor();
+            
+            }
 
-    case 1:
 
-    case 2:
+            Console.WriteLine("--- CALCULAR TOTAL VENDIDO ---");
+            double totalCalculado = 0;
+            
+            for (int i = 0; i < contador; i++)
+            {
+                totalCalculado += precios[i] * cantidades[i];
+            }
 
-    case 3:
-    
-    case 4:
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"El monto total de todas las ventas es: ${totalCalculado:F2}");
+            Console.ResetColor();
+            Console.WriteLine();
+            break;
 
-    case 5:
-    double promedio = total/contador;
-    //Se necesita la variable total y contador definidas por las otras partes
-    Console.Write($"El promedio de ventas es: C${promedio:F2}");
-    break;
+        case 4:
 
-    case 6:
-        Console.ForegroundColor = ConsoleColor.DarkMagenta;
-        Console.WriteLine("Fin del programa");
-        Console.WriteLine("Presiona cualquier tecla para salir...");
-        Console.ReadKey();
-        Console.ResetColor();
-        break;
-    default:
-        Console.ForegroundColor = ConsoleColor.Red;
-        Console.WriteLine("ERROR, Ingreso un dato invalido.");
-        Console.ResetColor();
-        break;
-}
+        case 5:
+
+        case 6:
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine("Fin del programa");
+            Console.WriteLine("Presiona cualquier tecla para salir...");
+            Console.ReadKey();
+            Console.ResetColor();
+            return;
+        default:
+            Console.WriteLine("ERROR, Ingreso un dato invalido.");
+            break;
