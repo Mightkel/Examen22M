@@ -1,0 +1,15 @@
+C:\Users\mayke\Desktop\Examen\Examen\bin\Debug\net10.0\Examen.exe
+C:\Users\mayke\Desktop\Examen\Examen\bin\Debug\net10.0\Examen.deps.json
+C:\Users\mayke\Desktop\Examen\Examen\bin\Debug\net10.0\Examen.runtimeconfig.json
+C:\Users\mayke\Desktop\Examen\Examen\bin\Debug\net10.0\Examen.dll
+C:\Users\mayke\Desktop\Examen\Examen\bin\Debug\net10.0\Examen.pdb
+C:\Users\mayke\Desktop\Examen\Examen\obj\Debug\net10.0\Examen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayke\Desktop\Examen\Examen\obj\Debug\net10.0\Examen.AssemblyInfoInputs.cache
+C:\Users\mayke\Desktop\Examen\Examen\obj\Debug\net10.0\Examen.AssemblyInfo.cs
+C:\Users\mayke\Desktop\Examen\Examen\obj\Debug\net10.0\Examen.csproj.CoreCompileInputs.cache
+C:\Users\mayke\Desktop\Examen\Examen\obj\Debug\net10.0\Examen.sourcelink.json
+C:\Users\mayke\Desktop\Examen\Examen\obj\Debug\net10.0\Examen.dll
+C:\Users\mayke\Desktop\Examen\Examen\obj\Debug\net10.0\refint\Examen.dll
+C:\Users\mayke\Desktop\Examen\Examen\obj\Debug\net10.0\Examen.pdb
+C:\Users\mayke\Desktop\Examen\Examen\obj\Debug\net10.0\Examen.genruntimeconfig.cache
+C:\Users\mayke\Desktop\Examen\Examen\obj\Debug\net10.0\ref\Examen.dll

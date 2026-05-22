@@ -137,7 +137,7 @@ while (true)
         case 5:
             double promedio = total / contador;
             //Se necesita la variable total y contador definidas por las otras partes
-            Console.Write($"El promedio de ventas es: C${promedio:F2}");
+            Console.WriteLine($"El promedio de ventas es: C${promedio:F2}");
             break;
 
         case 6:
