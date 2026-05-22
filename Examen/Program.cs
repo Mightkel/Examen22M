@@ -5,28 +5,28 @@ int contador = 0;
 double total = 0;
 while (true)
 {
-//menu
-int opcion = 0;
-Console.ForegroundColor = ConsoleColor.Blue;
-Console.WriteLine("=== MENÚ DE OPCIONES ===");
-Console.WriteLine("1. Registrar productos");
-Console.WriteLine("2. Mostrar productos");
-Console.WriteLine("3. Calcular total vendido");
-Console.WriteLine("4. Mostrar producto mas vendido");
-Console.WriteLine("5. Mostrar promedio de ventas");
-Console.WriteLine("6. Salir");
-Console.ResetColor();
-try
-{
-    opcion = int.Parse(Console.ReadLine()!);
-}
-catch (FormatException)
-{
-    Console.ForegroundColor = ConsoleColor.Red;
-    Console.WriteLine("ERROR, Ingreso un dato inválido");
+    //menu
+    int opcion = 0;
+    Console.ForegroundColor = ConsoleColor.Blue;
+    Console.WriteLine("=== MENÚ DE OPCIONES ===");
+    Console.WriteLine("1. Registrar productos");
+    Console.WriteLine("2. Mostrar productos");
+    Console.WriteLine("3. Calcular total vendido");
+    Console.WriteLine("4. Mostrar producto mas vendido");
+    Console.WriteLine("5. Mostrar promedio de ventas");
+    Console.WriteLine("6. Salir");
     Console.ResetColor();
-    return;
-}
+    try
+    {
+        opcion = int.Parse(Console.ReadLine()!);
+    }
+    catch (FormatException)
+    {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("ERROR, Ingreso un dato inválido");
+        Console.ResetColor();
+        return;
+    }
 
     switch (opcion)
     {
@@ -78,14 +78,15 @@ catch (FormatException)
             {
                 double subtotal = precios[i] * cantidades[i];
                 total += subtotal;
-                Console.WriteLine($"{productos[i]}\t{precios[i]:F2}\t{cantidades[i]}\t");
+                Console.WriteLine($"{productos[i]}\tC${precios[i]:F2}\t{cantidades[i]}\t");
             }
 
-            Console.WriteLine($"\nTotal ventas: {total:F2}");
+
             break;
 
         case 3:
-
+            Console.WriteLine($"\nTotal ventas: C${total:F2}");
+            break;
         case 4:
 
         case 5:
