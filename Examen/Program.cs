@@ -11,28 +11,28 @@ int contador = 0;
 double total = 0;
 while (true)
 {
-//menu
-int opcion = 0;
-Console.ForegroundColor = ConsoleColor.Blue;
-Console.WriteLine("=== MENÚ DE OPCIONES ===");
-Console.WriteLine("1. Registrar productos");
-Console.WriteLine("2. Mostrar productos");
-Console.WriteLine("3. Calcular total vendido");
-Console.WriteLine("4. Mostrar producto mas vendido");
-Console.WriteLine("5. Mostrar promedio de ventas");
-Console.WriteLine("6. Salir");
-Console.ResetColor();
-try
-{
-    opcion = int.Parse(Console.ReadLine()!);
-}
-catch (FormatException)
-{
-    Console.ForegroundColor = ConsoleColor.Red;
-    Console.WriteLine("ERROR, Ingreso un dato inválido");
+    //menu
+    int opcion = 0;
+    Console.ForegroundColor = ConsoleColor.Blue;
+    Console.WriteLine("=== MENÚ DE OPCIONES ===");
+    Console.WriteLine("1. Registrar productos");
+    Console.WriteLine("2. Mostrar productos");
+    Console.WriteLine("3. Calcular total vendido");
+    Console.WriteLine("4. Mostrar producto mas vendido");
+    Console.WriteLine("5. Mostrar promedio de ventas");
+    Console.WriteLine("6. Salir");
     Console.ResetColor();
-    return;
-}
+    try
+    {
+        opcion = int.Parse(Console.ReadLine()!);
+    }
+    catch (FormatException)
+    {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("ERROR, Ingreso un dato inválido");
+        Console.ResetColor();
+        return;
+    }
 
     switch (opcion)
     {
@@ -91,10 +91,54 @@ catch (FormatException)
             break;
 
         case 3:
+            if (contador == 0)
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("No se ingresaron productos. Vuelva al menú para registrar productos.");
+                return;
+                Console.ResetColor();
+
+            }
+
+
+            Console.WriteLine("--- CALCULAR TOTAL VENDIDO ---");
+            double totalCalculado = 0;
+
+            for (int i = 0; i < contador; i++)
+            {
+                totalCalculado += precios[i] * cantidades[i];
+            }
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"El monto total de todas las ventas es: ${totalCalculado:F2}");
+            Console.ResetColor();
+            Console.WriteLine();
+            break;
 
         case 4:
+            if (contador == 0)
+            {
+                Console.WriteLine("No se ingresaron productos.");
+                break;
+            }
 
+            int maxCantidad = cantidades[0];
+            int indiceMax = 0;
+            for (int i = 1; i < contador; i++)
+            {
+                if (cantidades[i] > maxCantidad)
+                {
+                    maxCantidad = cantidades[i];
+                    indiceMax = i;
+                }
+            }
+            Console.WriteLine($"Producto más vendido: {productos[indiceMax]} con {cantidades[indiceMax]} unidades vendidas.");
+            break;
         case 5:
+            double promedio = total / contador;
+            //Se necesita la variable total y contador definidas por las otras partes
+            Console.Write($"El promedio de ventas es: C${promedio:F2}");
+            break;
 
         case 6:
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
