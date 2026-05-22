@@ -3,3 +3,8 @@
 //mostrar menu para registrar, mostrar productos, calcular total, mostrar mas vendido, mostrar promedio y salir
 //utilizar una matriz para mostrar todos los productos registrados junto con su precio y cantidad en una tabla
 //todo debe resolverse utilizando arreglos
+
+int [] cantidades = new int [10];
+double [] precios = new double [10];
+string [] productos = new string [10];
+int contador = 0;
